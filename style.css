@@ -1,0 +1,25 @@
+:root{
+    --black: rgb(48, 48, 48);
+    --white: rgb(243, 243, 243);
+    --imageWidth: 512px;
+    --imageHeight: 512px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:var(--black);
+}
+
+#canvas1{
+    border: 2px solid var(--white);
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    width: var(--imageWidth);
+    height: var(--imageHeight);
+    /* width: 512px;
+    height: 512px; */
+}
